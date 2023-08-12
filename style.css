@@ -1,6 +1,9 @@
 :root {
-    --header-text:
-
+    --coyote: #887750ff;
+    --walnut-brown: #594A39ff;
+    --khaki: #BDAA90ff;
+    --drab-dark-brown: #47422Eff;
+    --black-olive: #373527ff;
 }
 
 body {
@@ -17,6 +20,31 @@ i {
     color: rgb(104, 102, 102);
 }
 
+.primary-theme {
+    color: var(--khaki);
+    background-color: var(--drab-dark-brown);
+}
+
+.secondary-theme {
+    background-color: var(--khaki);
+    color: var(--walnut-brown);
+}
+
+.hf-theme {
+    background-color: var(--walnut-brown);
+    color: var(--khaki);
+}
+
+.img-txt-theme {
+    background-color: var(--black-olive);
+    color: var(--coyote);
+}
+
+.card-theme {
+    background-color: var(--coyote);
+    color: var(--black-olive);
+}
+
 .flex {
     display: flex;
 }
@@ -29,7 +57,7 @@ i {
     /* no background img */
 }
 
-.green-card {
+.offset-card {
     /* default on mobile */
 }
 
@@ -45,7 +73,7 @@ i {
         background-position: center;
     }
 
-    .green-card {
+    .offset-card {
         position: absolute;
         right: 7.5vh;
         bottom: -10vh;
