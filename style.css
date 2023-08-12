@@ -54,6 +54,7 @@ i {
 }
 
 .bg-md {
+    background-color: var(--drab-dark-brown);
     /* no background img */
 }
 
